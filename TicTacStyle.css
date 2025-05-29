@@ -37,7 +37,10 @@ font-family: 'Orbitron', sans-serif;
     font-size: 10vh;
     color: #00ffe0;
     letter-spacing: 0.1vh;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+margin-bottom:0px;
+margin-top:2vh;}
+    
 
 p{
     display:flex;
@@ -64,7 +67,7 @@ p{
 .res{
     font-family: 'Orbitron', sans-serif;
   font-size: 2.5vh;
-  color: #00ffe0;
+  color: #fcf299;
   background-color: transparent;
   border: 0.2vh solid #00ffe0;
   padding: 1vh 2vh;
@@ -76,4 +79,83 @@ p{
     width:15vh;
     height:6vh;
     border:4px solid rgb(63, 110, 99);
+}
+
+#newGame{
+    font-family: 'Orbitron', sans-serif;
+  font-size: 2.5vh;
+  color:white;
+  background-color: transparent;
+  border: 0.2vh solid #00ffe0;
+  border-radius: 1vh;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1vh;
+    
+    width:30vh;
+    height:6vh;
+    border:4px solid rgb(63, 110, 99);
+}
+
+#inputContainer{
+    display:flex;
+    gap:30vh;
+
+}
+
+#enterNameContainer{
+    display:flex;
+    gap:30vh;
+    flex-direction:row;
+    align-self:center;
+}
+
+.enterBox {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5vh;
+  color: #00ffe0;
+  background-color: transparent;
+  border: 0.4vh solid #20776d;
+  border-radius: 1vh;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1vh;
+  width: 25vh;
+  height:9vh;
+  box-sizing: border-box;
+}
+
+#your{
+    color:rgb(234, 168, 248);
+}
+
+#opponent{
+    color:rgb(234, 168, 248);
+}
+
+.inputBox input {
+  width: 25vh;
+  height: 5vh;
+  font-size: 2.2vh;
+  font-family: 'Orbitron', sans-serif;
+  padding: 1vh;
+  color: #00ffe0;
+  background-color: transparent;
+  border: 0.4vh solid #20776d;
+  border-radius: 1vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+.win {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3vh;
+  color: #1cbe31;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.1vh;
+  text-align: center;
+}
+
+.hide {
+  display: none;
 }

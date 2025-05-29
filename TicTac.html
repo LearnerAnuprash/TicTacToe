@@ -9,9 +9,34 @@
 </head>
 <body>
     <div class="game-wrapper">
- <h1>
-        Tic Tac Toe 
+
+         <h1>
+        Tic Tac Toe
     </h1>
+
+        <div>
+        <button  id="newGame">New Game</button>
+    </div>
+
+    <div id="enterNameContainer">
+        <div class="enterBox" id="your">
+            <p>Your Name:</p>
+        </div>
+
+        <div class="enterBox" id="opponent">
+            <p>Opponent:</p>
+        </div>
+    </div>
+
+    <div id="inputContainer">
+        <div class="inputBox" >
+            <input type="text" placeholder="Enter Name" id="player1"/>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" placeholder="Enter Name" id="player2"/>
+        </div>
+    </div>
 
     <div id="mainBox">
 
@@ -52,6 +77,10 @@
     </div>
     
     </div>
+    <div class="win hide">
+  <p class="winText">Winner!</p>
+</div>
+
 
     <div>
         <button class="res">Reset</button>
