@@ -46,6 +46,7 @@ p{
 .clickme{
     width:8vh;
     height:8vh;
+    cursor:pointer;
 }
 
 .game-wrapper {
