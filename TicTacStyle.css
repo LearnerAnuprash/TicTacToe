@@ -16,6 +16,7 @@ body,html{
     padding:0px;
     margin:0px;
     gap:0px;
+
 }
 
 .box{
@@ -47,6 +48,10 @@ p{
     width:8vh;
     height:8vh;
     cursor:pointer;
+    color:rgb(136, 31, 160);
+    font-size:5vh;
+    font-weight:bold;
+    
 }
 
 .game-wrapper {
